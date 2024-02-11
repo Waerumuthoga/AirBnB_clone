@@ -14,7 +14,7 @@ class Place(BaseModel):
         number_rooms (int): The number of rooms the place has.
         number_bathrooms (int): The number of bathrooms found in the place.
         max_guest (int): The maximum number of guests the place can accomodate.
-        price_by_night (int): The charge accrued by occupation of the place per night.
+        price_by_night (int): The night charge accrued for occupation.
         latitude (float): The latitude of the place.
         longitude (float): The longitude of the place.
         amenity_ids (list): A list of Amenity ids.
